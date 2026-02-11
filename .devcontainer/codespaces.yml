@@ -3,9 +3,14 @@ services:
     container_name: windows
     image: ghcr.io/dockur/windows
     environment:
-      RAM_SIZE: "half"
+      USERNAME: "liaox"
+      PASSWORD: "password"
+      RAM_SIZE: "max"
       DISK_SIZE: "max"
       CPU_CORES: "max"
+      LANGUAGE: "Chinese"
+      REGION: "zh_CN"
+      KEYBOARD: "cn" 
     devices:
       - /dev/kvm
       - /dev/net/tun
