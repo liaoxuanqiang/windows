@@ -5,12 +5,9 @@ services:
     environment:
       USERNAME: "liaox"
       PASSWORD: "password"
-      RAM_SIZE: "16G"
+      RAM_SIZE: "max"
       DISK_SIZE: "max"
       CPU_CORES: "max"
-      LANGUAGE: "Chinese"
-      REGION: "zh_CN"
-      KEYBOARD: "cn" 
     devices:
       - /dev/kvm
       - /dev/net/tun
