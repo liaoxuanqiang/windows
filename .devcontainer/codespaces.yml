@@ -5,7 +5,7 @@ services:
     environment:
       USERNAME: "liaox"
       PASSWORD: "password"
-      RAM_SIZE: "max"
+      RAM_SIZE: "16G"
       DISK_SIZE: "max"
       CPU_CORES: "max"
       LANGUAGE: "Chinese"
